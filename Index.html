@@ -1,53 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MJ Study</title>
-
-    <!-- /*FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- */ICONS -->
-    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-
+    <title>Calendario</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Calendario.css">
 </head>
 <body>
-    <section>
-        <div class="container">
-            <h1>Pomodoro</h1>
+    <main class="contenedor">
+        <section class="mes">
+            <h2 class="nombre__mes">Mayo</h2>
 
-            <div class="painel">
-                <p id="work">work</p>
-                <p id="break">break</p>
-            </div>
+        </section>
 
-            <div class="timer">
-                <div class="circle">
-                    <div class="time">
-                        <p id="minutes"></p>
-                        <p>:</p>
-                        <p id="seconds"></p>
-                    </div>
-                </div>
-            </div>
+        <section class="dias">
+            <div class="dias__item">lunes</div>
+            <div class="dias__item">Martes</div>
+            <div class="dias__item">Miercoles</div>
+            <div class="dias__item">Jueves</div>
+            <div class="dias__item">Viernes</div>
+            <div class="dias__item">Sabado</div>
+            <div class="dias__item">Domingo</div>
+        </section>
 
-            <div class="controls">
-                <button id="start" onclick="start()"><i class="fa-solid fa-play" style="color: #ff0f7e;"></i></button>
+        <section class="calendario">
+            <div class="calendario__dia">1</div>
+            <div class="calendario__dia">2</div>
+            <div class="calendario__dia">3</div>
+            <div class="calendario__dia">4</div>
+            <div class="calendario__dia">5</div>
+            <div class="calendario__dia">6</div>
+            <div class="calendario__dia">7</div>
+            <div class="calendario__dia">8</div>
+            <div class="calendario__dia">9</div>
+            <div class="calendario__dia">10</div>
+            <div class="calendario__dia">11</div>
+            <div class="calendario__dia">12</div>
+            <div class="calendario__dia">13</div>
+            <div class="calendario__dia">14</div>
+            <div class="calendario__dia">15</div>
+            <div class="calendario__dia">16</div>
+            <div class="calendario__dia">17</div>
+            <div class="calendario__dia">18</div>
+            <div class="calendario__dia">19</div>
+            <div class="calendario__dia">20</div>
+            <div class="calendario__dia">21</div>
+            <div class="calendario__dia">22</div>
+            <div class="calendario__dia">23</div>
+            <div class="calendario__dia">24</div>
+            <div class="calendario__dia">25</div>
+            <div class="calendario__dia">26</div>
+            <div class="calendario__dia">27</div>
+            <div class="calendario__dia">28</div>
+            <div class="calendario__dia">29</div>
+            <div class="calendario__dia">30</div>
+            <div class="calendario__dia">31</div>
 
-                <a id="reset" href="/"><i class="fa-solid fa-arrow-rotate-left" style="color: #D862F8;"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- JS -->
-    <script src="script.js"></script>
+        </section>
+    </main>
+    
 </body>
 </html>
